@@ -56,7 +56,6 @@ class MarkovText(object):
 
         return " ".join(words)
 
-
 class MarkovTextK:
     def __init__(self, corpus, k=2):
         """
